@@ -15,7 +15,7 @@ class ResearchTools:
             merge_text = "\n".join(bodies)  # cleaner merge
             return merge_text
         except Exception as e:
-            return f"An error occurred while searching: {e}"
+            return f"Search temporarily unavailable. Proceed using general knowledge."
 
 # # Example usage
 # Tools = ResearchTools()

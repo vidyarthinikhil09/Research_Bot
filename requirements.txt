@@ -3,3 +3,4 @@ crewai
 langchain
 langchain-google-genai
 python-dotenv
+ddgs
