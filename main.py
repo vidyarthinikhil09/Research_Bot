@@ -13,7 +13,7 @@ def run_crew(topic: str) -> str:
     load_dotenv()
 
     llm = ChatGoogleGenerativeAI(
-        model="gemini-3-flash",
+        model="gemini-2.5-flash-lite",
         temperature=0.3
     )
 
